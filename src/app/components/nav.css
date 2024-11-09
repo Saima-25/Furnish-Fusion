@@ -1,0 +1,18 @@
+.Nav{
+    display: flex;
+    background-color: rgb(32, 123, 241);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 15px; 
+    justify-content: flex-end; 
+    gap: 15px;
+
+}
+.Link:hover{
+    color: aquamarine;
+    transition: color 0.3s;
+}
+
+.Nav img {
+    margin-right: 70%; /* Adjust this value to move it slightly to the right */
+}
